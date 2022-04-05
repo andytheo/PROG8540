@@ -1,0 +1,23 @@
+.main-image-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url('/images/absolutvision-82TpEld0_e4-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    margin-top: -15px;
+}
+
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th {
+    text-align: left;
+    background-color: beige;
+}
+
+.table-page {
+    justify-content: center;
+}

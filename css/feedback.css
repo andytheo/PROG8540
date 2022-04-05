@@ -1,0 +1,43 @@
+.main-image-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url('/images/john-schnobrich-FlPc9_VocJ4-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    margin-top: -15px;
+}
+
+.class-form {
+    height: 30px;
+    margin: 5px 0 15px;
+    width: 250px;
+    display: block;
+}
+
+.class-label {
+    margin-top: 50px;
+}
+
+.submit-button, .reset-button {
+    height: 35px;
+    width: 80px;
+    font-size: 15px;
+    background-color: #151D3B;
+    color: white;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.submit-button:hover, .reset-button:hover {
+    cursor: pointer;
+}
+
+.yes-no {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.no {
+    margin-left: 30px;
+}

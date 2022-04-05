@@ -18,9 +18,9 @@ body {
 }
 
 .logo-text {
-    font-size: 30px;
+    font-size: 25px;
     color: black;
-    margin: 12px -12px;
+    margin: 17px -12px;
 }
 
 .logo-image {
@@ -36,7 +36,14 @@ body {
     text-decoration: none;
     color: black;
     padding: 0 20px;
-    font-size: 20px;
+    font-size: 17px;
+}
+
+.link:hover a:hover {
+    color: grey;
+    text-decoration: underline;
+    text-underline-position: below;    
+    width: 100%;
 }
 
 .links {
@@ -46,10 +53,6 @@ body {
     box-shadow: 2px 1px 3px black;
     margin-top: -20px;
 }
-/* 
-.link .sub-link {
-    display: block;
-} */
 
 .parent-link {
     position: relative;
@@ -94,8 +97,9 @@ body {
 .main-content {
     flex: 3.5;
     /* background-color: antiquewhite; */
-    border: 1px solid black;
+    border: 1px solid lightgrey;
     box-shadow: 1px 1px 5px grey;
+    background-color: #ECECEC;
 }
 
 .right-content {
@@ -122,7 +126,7 @@ body {
 
 .main-content-text {
     position: absolute;
-    right: 50%;
+    right: 45%;
     top: 25%;
     color: white;
     text-align: center;
@@ -162,8 +166,8 @@ body {
 }
 
 .detail-image {
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     margin-bottom: -10px;
 }
 
@@ -263,4 +267,16 @@ footer {
 
 .copyright {
     text-align: center;
+}
+
+@media (max-width: 990px) {
+    .main-class {
+    flex-direction: column;
+    }
+
+    .left-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    
+    }
 }
